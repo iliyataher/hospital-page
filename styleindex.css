@@ -1,0 +1,403 @@
+@font-face {
+    font-family:samim;
+    src: url(/fonts/Tanha.ttf);
+}
+
+*{
+    font-family: samim , cursive;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    overflow-x: hidden;
+    transition: all ease 0.5s;
+}
+
+
+.header{
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    background-image: url(/img/bg-banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.itemnavbar{
+    display: inline;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.itemnavbar a{
+    text-decoration: none;
+}
+
+.navbar{
+    background: linear-gradient(to right bottom,greenyellow , green);
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+
+
+
+.boxnameandnavbar{
+    text-align: center;
+}
+
+.textcenterheader{
+    text-align: center;
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+.boxleftservis{
+    width: 27%;
+    text-align: center;
+    float: left;
+    margin: 10px;
+}
+
+.boxleftservis h2{
+    border-bottom: 3px solid yellow;
+    display: inline-block;
+    padding: 10px;
+}
+
+.boxrightservis{
+    width: 66%;
+    float: right;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.boxrightservis h2{
+    border-bottom: 3px solid yellow;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.boxclockcar{
+    width: 90%;
+    height: 400px;
+    background-color: rgb(34, 178, 245);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 10px;
+    text-align: center;
+    place-items: center;
+    color: white;
+    margin: 5.5%;
+}
+
+
+
+
+
+.boxclockdakhelcar{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.day{
+    float: right;
+}
+
+.time{
+    float: left;
+}
+
+.itemclockcar{
+    border-left: 1px solid aqua;
+    padding: 10px;
+}
+
+.containerboxclockcar{
+    display:inline-block;
+}
+
+.boxServis span{
+    font-size: 40px;
+    color: green;
+}
+
+.divabout{
+    width: 100%;
+    height: auto;
+    margin-left:2.2%;
+}
+
+.divabout h1{
+    text-align:right;
+    padding: 10px;
+}
+.itemabout{
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 22%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+.itemabout span{
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+
+.itemabout img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.facebook{
+    color:blue;
+}
+
+.instagram{
+    color: red;
+}
+.twitter{
+    color: aqua;
+}
+
+.boxnazarat{
+    width: 100%;
+    height: 443px;
+    background: linear-gradient(to right bottom,greenyellow , green);
+    display:inline-block;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.boxnazarat h1{
+    text-align: right;
+    margin: 10px;
+}
+
+.itemnazar{
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    float: right;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.itemnazar img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+.boxtextaboutus{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(greenyellow , green);
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns:auto;
+}
+
+.boxtextaboutus h2{
+    padding: 60px;
+}
+
+
+.boxcontent form{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto
+}
+
+.boxcontent input{
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.input3{
+    grid-column:1/3;
+    text-align: right;
+}
+
+.input4{
+    grid-column: 1/3;
+    text-align: right;
+}
+
+.input1 , .input2{
+    text-align: right;
+}
+
+
+.input5{
+    grid-column: 1/3;
+    background: linear-gradient(to right bottom,greenyellow , green);
+    transition: all ease 0.5s;
+}
+
+.input5:hover{
+    box-shadow: 0px 0px 10px 1px darkblue;
+    transform: scale(0.9);
+    background: linear-gradient(to left top,greenyellow , green);
+}
+
+
+
+
+
+.boxtextaboutus h1{
+    padding-top: 40px;
+}
+
+.bar4{
+    display: none;
+}
+
+
+/*----------------------------------------*/
+
+
+@media only screen and (max-width:800px){
+    .itemclockcar h2{
+        font-size: 12px;
+    }
+
+    .boxclockdakhelcar h4{
+        font-size: 10px;
+    }
+
+    .itemclockcar h5{
+        font-size: 10px;
+    }
+
+    .itemrightservis h2{
+        font-size: 12px;
+    }
+
+    .itemrightservis h5{
+        font-size: 10px;
+    }
+
+    .boxleftservis h2{
+        font-size: 12px;
+    }
+
+    .boxleftservis h5{
+        font-size: 10px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:571px){
+    .boxrightservis{
+        width: 98%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .itemrightservis{
+        margin: 10px;
+    }
+
+    .boxleftservis{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .itemabout{
+        width: 91%;
+    }
+
+    .divabout h1{
+        text-align: center;
+    }
+
+    .itemnazar{
+        width: 85%;
+        margin: 5%;
+        float: none;
+    }
+
+    .boxtextaboutus{
+        grid-template-columns: auto;
+    }
+
+    .boxtextaboutus h2{
+        font-size: 10px;
+        padding: 20px;
+    }
+
+    .boxtextaboutus h1{
+        font-size: 14px;
+        padding-top:20px;
+    }
+
+    .boxnazarat h1{
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width:650px){
+    .itemabout{
+        width: 44%;
+    }
+
+    .divabout h1{
+        margin-right: 30px;
+    }
+
+    .itemnazar{
+        width: 40%;
+    }
+
+    .boxnazarat{
+        height: 886px;
+    }
+}
+
+
+@media only screen and (max-width:620px){
+    .itemnazar{
+        width: 100%;
+    }
+
+    .bar3 , .bar4{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .itemabout{
+        width: 100%;
+    }
+}
