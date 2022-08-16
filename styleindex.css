@@ -1,6 +1,6 @@
 @font-face {
     font-family:samim;
-    src: url(/fonts/Tanha.ttf);
+    src: url(fonts/Samim-FD.ttf);
 }
 
 *{
@@ -20,7 +20,7 @@ body{
     display: inline-block;
     width: 100%;
     height: 400px;
-    background-image: url(/img/bg-banner.jpg);
+    background-image: url(img/bg-banner.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     z-index: -1;
